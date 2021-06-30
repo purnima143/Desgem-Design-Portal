@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+a{
+  color: grey !important;
+}
+
+.brand-logo,h2{
+  font-family: 'DM Serif Display', serif;}
+
+.mycard{
+  margin-top: 30px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  width: 50%;
+}
+
+.home-card{
+  max-width: 450px;
+  height: max-content;
+  margin: 25px 25px;
+  float: left;
+  padding: 10px;
+  margin-top: 40px;
+  
+}
+.collection-item{
+  width: 100%;
+}
+
+
+#toast-container{
+  top:30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+.material-icons{
+  margin: 5px;
+  font-size: 24px;
+}
+
+.material-icons:hover{
+  cursor: pointer;
+}
+.profilename{
+  color:black!important;
+  font-size:18px;
+  text-transform: capitalize;
+  font-weight:300;
+  margin:0px;
+}
+.likes{
+  display: inline;
+  color:white;
+  padding: 4px 8px;
+  border-radius: 50%;
+  font-size: 12px;
+  background-color:#e2184a;
+}
+.title{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top:5px;
+}
+.btn{
+  box-shadow: none!important;
+}
+#createpost{
+  background-image: url("./components/screens/bg.png");
+  background-size: cover;
+  background-position: center;
+  height:90vh;
+  padding: 30px;
+}
+.card{
+  box-shadow: 5px 10px 45px #f4ff95;
+}
+.signin-line{
+  font-size: 14px;
+  color: #33691e !important;
+  font-weight: 700;
+}
+#signup{
+  background-image: url("./components/screens/signupbg.png");
+  background-size: cover;
+  background-position: center;
+  height:88vh;
+
+}
+#signin{
+  background-image: url("./components/screens/signinbg.png");
+  background-size: cover;
+  background-position: center;
+  height:88vh;
+
+}
