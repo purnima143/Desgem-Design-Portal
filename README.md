@@ -33,7 +33,7 @@ with designers and creative talent around the globe.
 
 Project Managers, Developers, and Designers would be collaborating on various domains like:
 
--   **UI Prototyping** with figma tool [figma design](https://www.figma.com/file/1gYZlafa8bUZu61ji10unF/Kurakoo?node-id=0%3A1).
+-   **UI Prototyping** 
     
 -   **Front-End Development with ReactJS**
     
@@ -60,30 +60,40 @@ This would be an enriching experience for all Student Developers, Project Manage
 
 ## Flow of the site :computer:
 Below is a basic idea as to how the website works. 
-**Login & Signup screen:** For authentication we build a login and signup screen. After signin we redirect to home page and then you can log out also.
-![image](https://user-images.githubusercontent.com/57852378/129234522-4cd02d03-35b9-405e-9d71-66d8a8bcf290.png)
-![image](https://user-images.githubusercontent.com/57852378/129234575-ea4d6f94-28f1-4993-b8d0-eef32730736d.png)
-**User Profile Page:** Here we can see the number of shots you posted and no. of followers and following you have.
-Also we can update the your profile pic.
-![image](https://user-images.githubusercontent.com/57852378/129234644-8530d90a-4e7c-40ec-b67e-2d4d9c788b8b.png)
-We can visit other user’s profile and can follow unfollow his/her profile.
-![image](https://user-images.githubusercontent.com/57852378/129234689-e08115d9-209c-4606-8a82-05be45e32f96.png)
-**Create design shots:** Here we can upload our own design shots and let others give feedback on your designs.
-![image](https://user-images.githubusercontent.com/57852378/129234751-ce7fe839-d2d9-4a47-8a5f-74b310be8881.png)
-**Home page or feed page:** Here, we can see the posts posted by other designers and also like-unlike their posts. We can see other’s comment on the design shots and also make the comment on the posts.
-![image](https://user-images.githubusercontent.com/57852378/129234820-4c7f3493-faf6-4800-9b70-d0d4f41634e0.png)
-**Following shots:** This is the page where you can the post posted by your followings.
-![image](https://user-images.githubusercontent.com/57852378/129234868-f2194158-b114-402e-ba80-06db27b613cb.png)
 
-**MongoDB**
-![image](https://user-images.githubusercontent.com/57852378/129234916-e19c185c-6ea7-49bf-9361-7a0d334ba86f.png)
-![image](https://user-images.githubusercontent.com/57852378/129234936-b691894f-22a9-41da-80df-65ff49a9949b.png)
+- **Login & Signup screen:** For authentication we build a login and signup screen. After signin we redirect to home page and then you can log out also.
+
+![image](https://user-images.githubusercontent.com/57852378/129242734-4c0fe0bc-d567-4199-bc72-6a28bf117a8e.png)
+![image](https://user-images.githubusercontent.com/57852378/129243156-1731b1c7-a56f-4452-ade4-7f9490465a5b.png)
+
+- **User Profile Page:** Here we can see the number of shots you posted and no. of followers and following you have. Also we can update the your profile pic.
+
+![image](https://user-images.githubusercontent.com/57852378/129243603-4f359e67-6d08-4acf-98b4-eba1fe171d52.png)
+We can visit other user’s profile and can follow unfollow his/her profile.
+
+![image](https://user-images.githubusercontent.com/57852378/129242062-fb8f186b-a5e5-45df-8f51-a246101700e5.png)
+
+- **Create design shots:** Here we can upload our own design shots and let others give feedback on your designs.
+
+![image](https://user-images.githubusercontent.com/57852378/129241946-2f27cf15-70ed-46e7-9d15-6b16ce260288.png)
+
+- **Home page or feed page:** Here, we can see the posts posted by other designers and also like-unlike their posts. We can see other’s comment on the design shots and also make the comment on the posts.
+
+![image](https://user-images.githubusercontent.com/57852378/129239950-9e3b9bf1-3a30-4b3d-b0f5-e2bbc0b57b21.png)
+
+- **Following shots:** This is the page where you can the post posted by your followings.
+
+![image](https://user-images.githubusercontent.com/57852378/129241542-1c360c3b-b9ff-4153-9fad-626152df7417.png)
+
+- **MongoDB**
+![image](https://user-images.githubusercontent.com/57852378/129243777-c2ef907a-ece2-4efc-b7aa-2fc82838b5f9.png)
+![image](https://user-images.githubusercontent.com/57852378/129243834-54d6605e-e4c8-4690-a7ca-7b1685c98789.png)
 
 
 ## Setup Guidelines
 Clone the repository -
 ```
-git clone https://github.com/purnima143/Kurakoo.git
+git clone https://github.com/purnima143/Desgem_Design-Portal.git
 ```
 
 ### Backend
@@ -98,9 +108,6 @@ git clone https://github.com/purnima143/Kurakoo.git
     USER_MAIL=<Enter your mail-id from where you want to send the mails>
     MAIL_PASSWORD=<password of the entered mail-id for the authentication>
     ```
-     or
-
-  For the MONGO_URL, We have added a string for the local mongoDB connection inside index.js  `   mongodb://localhost:27017/kurakooDB`
 
 Note: See the .env.example file for further clarity
 
